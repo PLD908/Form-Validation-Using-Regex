@@ -11,14 +11,18 @@
 
     <form action="">
         <label for="Username">Username</label>
-        <input type="text" placeholder="Username" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <p id="invalid-username">Must be up to 3 letters</p>
         <label for="email">Email</label>
-        <input type="email" placeholder="Email" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <p id="invalid-email">Invalid Email</p>
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <p id="invalid-password">Weak Password</p>
         <label for="number">Phone Number</label>
-        <input type="number" placeholder="Phone Number" required>
-        <button type="button">Submit</button>
+        <input type="number" id="number" placeholder="Phone Number" required>
+        <p id="invalid-number">Invalid Number</p>
+        <button type="submit" id="submit">Submit</button>
     </form>
 
     <script src="form.js"></script>
